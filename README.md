@@ -38,7 +38,7 @@ This project analyzes 538,285 fire incidents to predict severity levels (Low, Me
    - EMS units/personnel
    - Response duration
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 ### Models Implemented
 | Model | Accuracy | F1-Score | Training Time |
@@ -62,7 +62,7 @@ The Gradient Boosting model demonstrates:
 - Strong Medium severity prediction (86% recall)
 - Good High severity detection (70% recall) with 96% precision
 
-## 📈 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ### Key Findings
 1. **Temporal Patterns**:
@@ -138,7 +138,7 @@ accuracy = gb_model.score(X_test, y_test)
 print(f"Accuracy: {accuracy:.4f}")
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
